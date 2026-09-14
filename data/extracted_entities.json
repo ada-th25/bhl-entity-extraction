@@ -1,0 +1,1492 @@
+[
+  {
+    "item_id": "239981",
+    "page_id": "54832638",
+    "category": "narrative",
+    "entities": [
+      {
+        "mention_text": "Catarractes antarcticus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "C. skua",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Halichore",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Sus andamensis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "M. manei",
+        "entity_type": "taxon",
+        "confidence": "low"
+      },
+      {
+        "mention_text": "Tupoia",
+        "entity_type": "taxon",
+        "confidence": "low"
+      },
+      {
+        "mention_text": "Hcematornis cheela",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Blagrus leucogaster",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Todirhamphus collaris",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Halcyon coromanda",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "H. smyrnensis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Corms culminatus",
+        "entity_type": "taxon",
+        "confidence": "low"
+      },
+      {
+        "mention_text": "Gracula javanica",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Temenuchus erythropygius",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Teplnrodornis griseola",
+        "entity_type": "taxon",
+        "confidence": "low"
+      },
+      {
+        "mention_text": "Geocichla innotata",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Copsychus saularis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Kittacincla albiventris",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Artamus leucorhynchus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Edolius retifer",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Pericrocotus peregrinus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Pycnonotus jocosus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Irena puella f.",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Oriolus coronatus",
+        "entity_type": "taxon",
+        "confidence": "low"
+      },
+      {
+        "mention_text": "Carpophaga sylvatica",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Calcenas nicobarica",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Anous stolidus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "A. Hay",
+        "entity_type": "person",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Andaman Islands",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Calcutta Museum",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Cocos rocks",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "England",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Equator",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Negrillo",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Nicobarica",
+        "entity_type": "locality",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "item_id": "239981",
+    "page_id": "54832512",
+    "category": "narrative",
+    "entities": [
+      {
+        "mention_text": "Red Sea",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Scopus umbretta",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Abyssinian coast",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Tantalus ibis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Ibis religiosa",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Dahalak",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Abyssinia",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Numenius tenuirostris",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Gulf of Aden",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Suez",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Arabia Petrsea",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Cosseir",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Massaua",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Asab Bay",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Ras Belul",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Tadjura",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Somali",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Limosa rufa",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Totanus stagnatilis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Totanus glareola",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Totanus calidris",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Totanus glottis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Actitis hypoleucus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Tringa yariabilis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Sawakim",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Bab-el-Mandeb",
+        "entity_type": "locality",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "item_id": "239981",
+    "page_id": "54832312",
+    "category": "narrative",
+    "entities": [
+      {
+        "mention_text": "Aquila ncevioides",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Buteo tachardus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Falco punicus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Hypotriorchis concolor",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Pica mauritanica",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Garrulus cervicalis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Fringilla spodiogenia",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Ruticilla moussieri",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Chloropeta pallida",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Parus ultramarinus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Pa7'us ledouci",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Lanius algeriensis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Gecinus vaillantii",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Picus numidicus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Microcarbo algeriensis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Falco eleonorce",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Sylvia elaica",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Sylvia familiaris",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Sylvia galactotes",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Col. H. M. Drummond",
+        "entity_type": "person",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Prince Bonaparte",
+        "entity_type": "person",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Captain Loche",
+        "entity_type": "person",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Temminck",
+        "entity_type": "person",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Andalusia",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Malta",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "North Africa",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Algeria",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Constantine",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Red Sea",
+        "entity_type": "locality",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "item_id": "239981",
+    "page_id": "54832247",
+    "category": "narrative",
+    "entities": [
+      {
+        "mention_text": "Eriocnemis derbianus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "nigrivestis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "isaacsoni",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Trochilus colubris",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Phaethornis obscurus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "viridicaudata",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Lampornis graraineus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "porphyrurus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "veraguensis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "aurulentus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "prevosti",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Cometes glyceria",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Heliopcedica melanotis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Erythronota edwardi",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "niveiventris",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Phseoleema rubinoides",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Helidoxa jacula",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Discura longicauda",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Phaethornis superciliosus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Sternoclyta cyaneipectus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Thalurania furcata",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "columbica",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "eriphile",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "verticeps",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Microchera albicoronata",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Chrysobronchus virescens",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "viridicaudus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Chrysuronia elicise",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Mr. Gould",
+        "entity_type": "person",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Palseornis derbianus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "malaccensis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "affinis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Tesia cyaneiventris",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "castaneo-coronata",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Accentor atrigularis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "altaicus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Merula unicolor",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Ceriornis caboti",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Pyrrhula aurantia",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Palceornis affinis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Accentor huttoni",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "A. variegatus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Himalayas",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Siberia",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Phasianus mongolicus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Parus cinereus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "minor",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "monticolus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Palseornis columboides",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "schisticeps",
+        "entity_type": "taxon",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "item_id": "34369",
+    "page_id": "8330882",
+    "category": "narrative",
+    "entities": [
+      {
+        "mention_text": "Menura alberti",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Pitta strepitans",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Lopholamus antarcticus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Emeu",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Strix castanops",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Pyrariga ludoviciana",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Turdus ncevius",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Hirundo thalassina",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Sialia mexicana",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Colaptes mexicanus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Picas ruber",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Hedymeles melanocephalus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Bonasa umbelloides",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Athene strenua",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Buteo insignis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Buteo pterocles",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Micrastur brachypterus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Ilypotriorchis femoralis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Ibycter ater",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Buteogallus nigriorillis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Spizaitus ornatus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Circus maculosus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Falco anatum",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Mr. Ward",
+        "entity_type": "person",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Mr. W. Chatfield",
+        "entity_type": "person",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Mrs. Crowther",
+        "entity_type": "person",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Mr. James Thompson",
+        "entity_type": "person",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Mr. S. W. Passmore",
+        "entity_type": "person",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "British Guiana",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Natal",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Queensland",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Vancouver's Island",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Victoria",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Canada",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "St. Vincent",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Tasmania",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "And no mention of the Red Sea",
+        "entity_type": "locality",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "item_id": "34369",
+    "page_id": "8330698",
+    "category": "narrative",
+    "entities": [
+      {
+        "mention_text": "Eupodotis australis, Gray)",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "O. Tarda",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Otis Tetrax",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Mr. A. Newton",
+        "entity_type": "person",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Mr. J. H. Gurney",
+        "entity_type": "person",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Mr. Frederick Strange",
+        "entity_type": "person",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "J. F. Naumann",
+        "entity_type": "person",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Nitzsch",
+        "entity_type": "person",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Andaman Islands",
+        "entity_type": "locality",
+        "confidence": "low"
+      },
+      {
+        "mention_text": "Australia",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Deutschl.",
+        "entity_type": "locality",
+        "confidence": "low"
+      },
+      {
+        "mention_text": "Cameroon Mountain",
+        "entity_type": "locality",
+        "confidence": "low"
+      },
+      {
+        "mention_text": "Red Sea",
+        "entity_type": "locality",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "item_id": "34369",
+    "page_id": "8330712",
+    "category": "narrative",
+    "entities": [
+      {
+        "mention_text": "Cathartes aura",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Cathartes atratus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Tinnunculus sparverius",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Nauclerus furcatus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Haliaetus leucocephalus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Pandion carolinensis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Scojjs asio",
+        "entity_type": "taxon",
+        "confidence": "low"
+      },
+      {
+        "mention_text": "Syrnium nebulosum",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Conurus carolinensis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Campephilus principalis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Picus villosus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Picus borealis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Hylatomus pileatus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Centui'us carolinus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Colaptes auratus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Trochilus colubris",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Antrostomus carohnensis",
+        "entity_type": "taxon",
+        "confidence": "low"
+      },
+      {
+        "mention_text": "Chordeiles popetue",
+        "entity_type": "taxon",
+        "confidence": "low"
+      },
+      {
+        "mention_text": "Ceryle alcyon",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Tyrannus carohnensis",
+        "entity_type": "taxon",
+        "confidence": "low"
+      },
+      {
+        "mention_text": "Turdus migratorius",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Sialia sialis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Pyranga rubra",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Collyrio ludovicianus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Mimus polyglottus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Mimus carolinensis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Harporhynchus rufus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Cyanospiza cyanea",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Cardinalis virginianus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Pipilo erythrophthalmus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Agelaius phoeniceus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Sturnella magna",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Quiscalus major",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Dr. Henry Bryant",
+        "entity_type": "person",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Mr. G. C. Taylor",
+        "entity_type": "person",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Boston",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Florida",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Washington",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "The Ibis",
+        "entity_type": "locality",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "item_id": "34369",
+    "page_id": "8330709",
+    "category": "narrative",
+    "entities": [
+      {
+        "mention_text": "Trapphahn",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Kurzhorn-Rage",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Mr. Wolf",
+        "entity_type": "person",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "London",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Zoological Gardens",
+        "entity_type": "locality",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "item_id": "35484",
+    "page_id": "8750262",
+    "category": "narrative",
+    "entities": [
+      {
+        "mention_text": "Cameroon Mountain",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Fernando Po",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Ambas Bay",
+        "entity_type": "locality",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Bradypterus camerunensis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Poliolais alexaiideri",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Prinia epichlora",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Laniarius atroflavus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Dryoscopus angolensia o-risescens",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Francolinus camerunensis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Columba arquatrix sjostedti",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Haplopelia simplex inornata",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Mesopicus jolinstoni",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Campothera tullbergi",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Psalidoprocne fiilijrinosa",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Alseonax mm-iuus olscurus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Trochocercus albiventris",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Cryptolopha camerunensis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Graiicaliis caesius preussi",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Bleda poliocephala",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Bleda tephrolifima",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Turdinus monachus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Turdus nigrilorum",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Turdus crossleyi",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Oossypha isabellae",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Saxicola salax pallidigula",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Cisticola discolor",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Zosterops stenocricota",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Speirops melanocepbala",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Cinnyris oritis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Cinuyris preussi",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Antbus camaroonensis",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Poliospiza burtoiii",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Pyromelana xantbomelas pboenicomera",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Sycobrotus tepbronotus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Heterbypbantes melanogaster",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Onycbognalbus preussi",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Alexander",
+        "entity_type": "person",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Sir Joseph Hooker",
+        "entity_type": "person",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "item_id": "35484",
+    "page_id": "8750405",
+    "category": "narrative",
+    "entities": [
+      {
+        "mention_text": "Ruff",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Eroliinse",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Triuginse",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Tringinae",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Canutus canutus",
+        "entity_type": "taxon",
+        "confidence": "high"
+      },
+      {
+        "mention_text": "Rhea americana",
+        "entity_type": "taxon",
+        "confidence": "low"
+      },
+      {
+        "mention_text": "Falco anatum",
+        "entity_type": "taxon",
+        "confidence": "low"
+      },
+      {
+        "mention_text": "Mr. A. Newton",
+        "entity_type": "person",
+        "confidence": "low"
+      },
+      {
+        "mention_text": "Dr. Henry Bryant",
+        "entity_type": "person",
+        "confidence": "low"
+      },
+      {
+        "mention_text": "Andaman Islands",
+        "entity_type": "locality",
+        "confidence": "low"
+      },
+      {
+        "mention_text": "Cameroon Mountain",
+        "entity_type": "locality",
+        "confidence": "low"
+      },
+      {
+        "mention_text": "Red Sea",
+        "entity_type": "locality",
+        "confidence": "low"
+      }
+    ]
+  }
+]
