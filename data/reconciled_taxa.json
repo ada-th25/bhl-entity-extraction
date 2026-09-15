@@ -1,0 +1,1626 @@
+[
+  {
+    "query": "Catarractes antarcticus",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Animalia",
+    "rank": "KINGDOM",
+    "confidence": 92,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "C. skua",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Halichore",
+    "match_type": "EXACT",
+    "canonical_name": "Halichore",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Sus andamensis",
+    "match_type": "FUZZY",
+    "canonical_name": "Sus andamanensis",
+    "rank": "SPECIES",
+    "confidence": 92,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "M. manei",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Tupoia",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Hcematornis cheela",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Blagrus leucogaster",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Blagrus",
+    "rank": "GENUS",
+    "confidence": 92,
+    "status": "DOUBTFUL"
+  },
+  {
+    "query": "Todirhamphus collaris",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Aves",
+    "rank": "CLASS",
+    "confidence": 92,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Halcyon coromanda",
+    "match_type": "EXACT",
+    "canonical_name": "Halcyon coromanda",
+    "rank": "SPECIES",
+    "confidence": 99,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "H. smyrnensis",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Corms culminatus",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Gracula javanica",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Gracula",
+    "rank": "GENUS",
+    "confidence": 92,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Temenuchus erythropygius",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Temenuchus",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Teplnrodornis griseola",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Geocichla innotata",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Geocichla",
+    "rank": "GENUS",
+    "confidence": 92,
+    "status": "DOUBTFUL"
+  },
+  {
+    "query": "Copsychus saularis",
+    "match_type": "EXACT",
+    "canonical_name": "Copsychus saularis",
+    "rank": "SPECIES",
+    "confidence": 99,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Kittacincla albiventris",
+    "match_type": "EXACT",
+    "canonical_name": "Kittacincla albiventris",
+    "rank": "SPECIES",
+    "confidence": 99,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Artamus leucorhynchus",
+    "match_type": "EXACT",
+    "canonical_name": "Artamus leucorhynchus",
+    "rank": "SPECIES",
+    "confidence": 98,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Edolius retifer",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Edolius",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Pericrocotus peregrinus",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Pericrocotus",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Pycnonotus jocosus",
+    "match_type": "EXACT",
+    "canonical_name": "Pycnonotus jocosus",
+    "rank": "SPECIES",
+    "confidence": 99,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Irena puella f.",
+    "match_type": "EXACT",
+    "canonical_name": "Irena puella",
+    "rank": "SPECIES",
+    "confidence": 84,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Oriolus coronatus",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Oriolus",
+    "rank": "GENUS",
+    "confidence": 92,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Carpophaga sylvatica",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Carpophaga",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Calcenas nicobarica",
+    "match_type": "FUZZY",
+    "canonical_name": "Caloenas nicobarica",
+    "rank": "SPECIES",
+    "confidence": 85,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Anous stolidus",
+    "match_type": "EXACT",
+    "canonical_name": "Anous stolidus",
+    "rank": "SPECIES",
+    "confidence": 99,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Scopus umbretta",
+    "match_type": "EXACT",
+    "canonical_name": "Scopus umbretta",
+    "rank": "SPECIES",
+    "confidence": 99,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Tantalus ibis",
+    "match_type": "EXACT",
+    "canonical_name": "Tantalus ibis",
+    "rank": "SPECIES",
+    "confidence": 98,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Ibis religiosa",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Aves",
+    "rank": "CLASS",
+    "confidence": 92,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Numenius tenuirostris",
+    "match_type": "EXACT",
+    "canonical_name": "Numenius tenuirostris",
+    "rank": "SPECIES",
+    "confidence": 99,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Limosa rufa",
+    "match_type": "EXACT",
+    "canonical_name": "Limosa rufa",
+    "rank": "SPECIES",
+    "confidence": 98,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Totanus stagnatilis",
+    "match_type": "EXACT",
+    "canonical_name": "Totanus stagnatilis",
+    "rank": "SPECIES",
+    "confidence": 98,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Totanus glareola",
+    "match_type": "FUZZY",
+    "canonical_name": "Totanus glareolus",
+    "rank": "SPECIES",
+    "confidence": 96,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Totanus calidris",
+    "match_type": "EXACT",
+    "canonical_name": "Totanus calidris",
+    "rank": "SPECIES",
+    "confidence": 98,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Totanus glottis",
+    "match_type": "EXACT",
+    "canonical_name": "Totanus glottis",
+    "rank": "SPECIES",
+    "confidence": 98,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Actitis hypoleucus",
+    "match_type": "FUZZY",
+    "canonical_name": "Actitis hypoleucos",
+    "rank": "SPECIES",
+    "confidence": 96,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Tringa yariabilis",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Tringa",
+    "rank": "GENUS",
+    "confidence": 92,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Aquila ncevioides",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Aquila",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Buteo tachardus",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Buteo",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Falco punicus",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Falco",
+    "rank": "GENUS",
+    "confidence": 92,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Hypotriorchis concolor",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Hypotriorchis",
+    "rank": "GENUS",
+    "confidence": 92,
+    "status": "DOUBTFUL"
+  },
+  {
+    "query": "Pica mauritanica",
+    "match_type": "EXACT",
+    "canonical_name": "Pica mauritanica",
+    "rank": "SPECIES",
+    "confidence": 99,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Garrulus cervicalis",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Garrulus",
+    "rank": "GENUS",
+    "confidence": 92,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Fringilla spodiogenia",
+    "match_type": "FUZZY",
+    "canonical_name": "Fringilla spodiogenys",
+    "rank": "SPECIES",
+    "confidence": 95,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Ruticilla moussieri",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Passeriformes",
+    "rank": "ORDER",
+    "confidence": 90,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Chloropeta pallida",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Chloropeta",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Parus ultramarinus",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Parus",
+    "rank": "GENUS",
+    "confidence": 92,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Pa7'us ledouci",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Lanius algeriensis",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Lanius",
+    "rank": "GENUS",
+    "confidence": 92,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Gecinus vaillantii",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Gecinus",
+    "rank": "GENUS",
+    "confidence": 92,
+    "status": "DOUBTFUL"
+  },
+  {
+    "query": "Picus numidicus",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Picus",
+    "rank": "GENUS",
+    "confidence": 92,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Microcarbo algeriensis",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Microcarbo",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Falco eleonorce",
+    "match_type": "FUZZY",
+    "canonical_name": "Falco eleonorae",
+    "rank": "SPECIES",
+    "confidence": 95,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Sylvia elaica",
+    "match_type": "FUZZY",
+    "canonical_name": "Sylvia elata",
+    "rank": "SPECIES",
+    "confidence": 93,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Sylvia familiaris",
+    "match_type": "EXACT",
+    "canonical_name": "Sylvia familiaris",
+    "rank": "SPECIES",
+    "confidence": 99,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Sylvia galactotes",
+    "match_type": "EXACT",
+    "canonical_name": "Sylvia galactotes",
+    "rank": "SPECIES",
+    "confidence": 98,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Eriocnemis derbianus",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Animalia",
+    "rank": "KINGDOM",
+    "confidence": 92,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "nigrivestis",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "isaacsoni",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Trochilus colubris",
+    "match_type": "EXACT",
+    "canonical_name": "Trochilus colubris",
+    "rank": "SPECIES",
+    "confidence": 98,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Phaethornis obscurus",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Phaethornis",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "viridicaudata",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Lampornis graraineus",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Lampornis",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "porphyrurus",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "veraguensis",
+    "match_type": "EXACT",
+    "canonical_name": "? veraguensis",
+    "rank": "UNRANKED",
+    "confidence": 97,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "aurulentus",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "prevosti",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Cometes glyceria",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Heliopcedica melanotis",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Erythronota edwardi",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Erythronota",
+    "rank": "GENUS",
+    "confidence": 92,
+    "status": "DOUBTFUL"
+  },
+  {
+    "query": "niveiventris",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Phseoleema rubinoides",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Helidoxa jacula",
+    "match_type": "FUZZY",
+    "canonical_name": "Heliodoxa jacula",
+    "rank": "SPECIES",
+    "confidence": 85,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Discura longicauda",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Discura",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Phaethornis superciliosus",
+    "match_type": "EXACT",
+    "canonical_name": "Phaethornis superciliosus",
+    "rank": "SPECIES",
+    "confidence": 99,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Sternoclyta cyaneipectus",
+    "match_type": "FUZZY",
+    "canonical_name": "Sternoclyta cyanopectus",
+    "rank": "SPECIES",
+    "confidence": 93,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Thalurania furcata",
+    "match_type": "EXACT",
+    "canonical_name": "Thalurania furcata",
+    "rank": "SPECIES",
+    "confidence": 99,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "columbica",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "eriphile",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "verticeps",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Microchera albicoronata",
+    "match_type": "FUZZY",
+    "canonical_name": "Microchera albocoronata",
+    "rank": "SPECIES",
+    "confidence": 95,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Chrysobronchus virescens",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Chrysobronchus",
+    "rank": "GENUS",
+    "confidence": 92,
+    "status": "DOUBTFUL"
+  },
+  {
+    "query": "viridicaudus",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Chrysuronia elicise",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Chrysuronia",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Palseornis derbianus",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "malaccensis",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "affinis",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Tesia cyaneiventris",
+    "match_type": "FUZZY",
+    "canonical_name": "Tesia cyaniventer",
+    "rank": "SPECIES",
+    "confidence": 93,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "castaneo-coronata",
+    "match_type": "FUZZY",
+    "canonical_name": "? castaneocoronata",
+    "rank": "UNRANKED",
+    "confidence": 95,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Accentor atrigularis",
+    "match_type": "FUZZY",
+    "canonical_name": "Accentor atrogularis",
+    "rank": "SPECIES",
+    "confidence": 92,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "altaicus",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Animalia",
+    "rank": "KINGDOM",
+    "confidence": 95,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Merula unicolor",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Animalia",
+    "rank": "KINGDOM",
+    "confidence": 92,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Ceriornis caboti",
+    "match_type": "EXACT",
+    "canonical_name": "Ceriornis caboti",
+    "rank": "SPECIES",
+    "confidence": 98,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Pyrrhula aurantia",
+    "match_type": "FUZZY",
+    "canonical_name": "Pyrrhula aurantiaca",
+    "rank": "SPECIES",
+    "confidence": 93,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Palceornis affinis",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Accentor huttoni",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Accentor",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "A. variegatus",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Phasianus mongolicus",
+    "match_type": "EXACT",
+    "canonical_name": "Phasianus mongolicus",
+    "rank": "SPECIES",
+    "confidence": 98,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Parus cinereus",
+    "match_type": "EXACT",
+    "canonical_name": "Parus cinereus",
+    "rank": "SPECIES",
+    "confidence": 99,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "minor",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "monticolus",
+    "match_type": "EXACT",
+    "canonical_name": "? monticolus",
+    "rank": "UNRANKED",
+    "confidence": 97,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Palseornis columboides",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "schisticeps",
+    "match_type": "EXACT",
+    "canonical_name": "? schisticeps",
+    "rank": "UNRANKED",
+    "confidence": 97,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Menura alberti",
+    "match_type": "EXACT",
+    "canonical_name": "Menura alberti",
+    "rank": "SPECIES",
+    "confidence": 99,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Pitta strepitans",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Pitta",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Lopholamus antarcticus",
+    "match_type": "FUZZY",
+    "canonical_name": "Lopholaimus antarcticus",
+    "rank": "SPECIES",
+    "confidence": 85,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Emeu",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Strix castanops",
+    "match_type": "EXACT",
+    "canonical_name": "Strix castanops",
+    "rank": "SPECIES",
+    "confidence": 98,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Pyrariga ludoviciana",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Turdus ncevius",
+    "match_type": "FUZZY",
+    "canonical_name": "Turdus naevius",
+    "rank": "SPECIES",
+    "confidence": 94,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Hirundo thalassina",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Hirundo",
+    "rank": "GENUS",
+    "confidence": 93,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Sialia mexicana",
+    "match_type": "EXACT",
+    "canonical_name": "Sialia mexicana",
+    "rank": "SPECIES",
+    "confidence": 99,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Colaptes mexicanus",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Colaptes",
+    "rank": "GENUS",
+    "confidence": 92,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Picas ruber",
+    "match_type": "FUZZY",
+    "canonical_name": "Picus ruber",
+    "rank": "SPECIES",
+    "confidence": 84,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Hedymeles melanocephalus",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Hedymeles",
+    "rank": "GENUS",
+    "confidence": 92,
+    "status": "DOUBTFUL"
+  },
+  {
+    "query": "Bonasa umbelloides",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Bonasa",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Athene strenua",
+    "match_type": "EXACT",
+    "canonical_name": "Athene strenua",
+    "rank": "SPECIES",
+    "confidence": 98,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Buteo insignis",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Buteo",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Buteo pterocles",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Buteo",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Micrastur brachypterus",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Micrastur",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Ilypotriorchis femoralis",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Ibycter ater",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Ibycter",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Buteogallus nigriorillis",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Buteogallus",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Spizaitus ornatus",
+    "match_type": "FUZZY",
+    "canonical_name": "Spizaetus ornatus",
+    "rank": "SPECIES",
+    "confidence": 85,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Circus maculosus",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Falco anatum",
+    "match_type": "EXACT",
+    "canonical_name": "Falco anatum",
+    "rank": "SPECIES",
+    "confidence": 98,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Eupodotis australis, Gray)",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Eupodotis",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "O. Tarda",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Otis Tetrax",
+    "match_type": "EXACT",
+    "canonical_name": "Otis",
+    "rank": "GENUS",
+    "confidence": 91,
+    "status": "DOUBTFUL"
+  },
+  {
+    "query": "Cathartes aura",
+    "match_type": "EXACT",
+    "canonical_name": "Cathartes aura",
+    "rank": "SPECIES",
+    "confidence": 99,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Cathartes atratus",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Cathartes",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Tinnunculus sparverius",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Tinnunculus",
+    "rank": "GENUS",
+    "confidence": 92,
+    "status": "DOUBTFUL"
+  },
+  {
+    "query": "Nauclerus furcatus",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Nauclerus",
+    "rank": "GENUS",
+    "confidence": 93,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Haliaetus leucocephalus",
+    "match_type": "FUZZY",
+    "canonical_name": "Haliaeetus leucocephalus",
+    "rank": "SPECIES",
+    "confidence": 85,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Pandion carolinensis",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Pandion",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Scojjs asio",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Syrnium nebulosum",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Syrnium",
+    "rank": "GENUS",
+    "confidence": 92,
+    "status": "DOUBTFUL"
+  },
+  {
+    "query": "Conurus carolinensis",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Animalia",
+    "rank": "KINGDOM",
+    "confidence": 92,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Campephilus principalis",
+    "match_type": "EXACT",
+    "canonical_name": "Campephilus principalis",
+    "rank": "SPECIES",
+    "confidence": 99,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Picus villosus",
+    "match_type": "EXACT",
+    "canonical_name": "Picus villosus",
+    "rank": "SPECIES",
+    "confidence": 98,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Picus borealis",
+    "match_type": "EXACT",
+    "canonical_name": "Picus borealis",
+    "rank": "SPECIES",
+    "confidence": 98,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Hylatomus pileatus",
+    "match_type": "EXACT",
+    "canonical_name": "Hylatomus pileatus",
+    "rank": "SPECIES",
+    "confidence": 98,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Centui'us carolinus",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Colaptes auratus",
+    "match_type": "EXACT",
+    "canonical_name": "Colaptes auratus",
+    "rank": "SPECIES",
+    "confidence": 99,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Antrostomus carohnensis",
+    "match_type": "FUZZY",
+    "canonical_name": "Antrostomus carolinensis",
+    "rank": "SPECIES",
+    "confidence": 93,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Chordeiles popetue",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Chordeiles",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Ceryle alcyon",
+    "match_type": "EXACT",
+    "canonical_name": "Ceryle alcyon",
+    "rank": "SPECIES",
+    "confidence": 98,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Tyrannus carohnensis",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Tyrannus",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Turdus migratorius",
+    "match_type": "EXACT",
+    "canonical_name": "Turdus migratorius",
+    "rank": "SPECIES",
+    "confidence": 99,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Sialia sialis",
+    "match_type": "EXACT",
+    "canonical_name": "Sialia sialis",
+    "rank": "SPECIES",
+    "confidence": 99,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Pyranga rubra",
+    "match_type": "FUZZY",
+    "canonical_name": "Piranga rubra",
+    "rank": "SPECIES",
+    "confidence": 85,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Collyrio ludovicianus",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Mimus polyglottus",
+    "match_type": "EXACT",
+    "canonical_name": "Mimus polyglottus",
+    "rank": "SPECIES",
+    "confidence": 98,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Mimus carolinensis",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Mimus",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Harporhynchus rufus",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Animalia",
+    "rank": "KINGDOM",
+    "confidence": 92,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Cyanospiza cyanea",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Cyanospiza",
+    "rank": "GENUS",
+    "confidence": 92,
+    "status": "DOUBTFUL"
+  },
+  {
+    "query": "Cardinalis virginianus",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Pipilo erythrophthalmus",
+    "match_type": "EXACT",
+    "canonical_name": "Pipilo erythrophthalmus",
+    "rank": "SPECIES",
+    "confidence": 99,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Agelaius phoeniceus",
+    "match_type": "EXACT",
+    "canonical_name": "Agelaius phoeniceus",
+    "rank": "SPECIES",
+    "confidence": 99,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Sturnella magna",
+    "match_type": "EXACT",
+    "canonical_name": "Sturnella magna",
+    "rank": "SPECIES",
+    "confidence": 99,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Quiscalus major",
+    "match_type": "EXACT",
+    "canonical_name": "Quiscalus major",
+    "rank": "SPECIES",
+    "confidence": 99,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Trapphahn",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Kurzhorn-Rage",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Bradypterus camerunensis",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Bradypterus",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Poliolais alexaiideri",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Poliolais",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Prinia epichlora",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Prinia",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Laniarius atroflavus",
+    "match_type": "EXACT",
+    "canonical_name": "Laniarius atroflavus",
+    "rank": "SPECIES",
+    "confidence": 99,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Dryoscopus angolensia o-risescens",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Dryoscopus angolensis",
+    "rank": "SPECIES",
+    "confidence": 95,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Francolinus camerunensis",
+    "match_type": "EXACT",
+    "canonical_name": "Francolinus camerunensis",
+    "rank": "SPECIES",
+    "confidence": 98,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Columba arquatrix sjostedti",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Columba arquatrix",
+    "rank": "SPECIES",
+    "confidence": 99,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Haplopelia simplex inornata",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Haplopelia",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Mesopicus jolinstoni",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Campothera tullbergi",
+    "match_type": "FUZZY",
+    "canonical_name": "Campethera tullbergi",
+    "rank": "SPECIES",
+    "confidence": 85,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Psalidoprocne fiilijrinosa",
+    "match_type": "FUZZY",
+    "canonical_name": "Psalidoprocne fuliginosa",
+    "rank": "SPECIES",
+    "confidence": 93,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Alseonax mm-iuus olscurus",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Alseonax",
+    "rank": "GENUS",
+    "confidence": 92,
+    "status": "DOUBTFUL"
+  },
+  {
+    "query": "Trochocercus albiventris",
+    "match_type": "EXACT",
+    "canonical_name": "Trochocercus albiventris",
+    "rank": "SPECIES",
+    "confidence": 98,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Cryptolopha camerunensis",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Cryptolopha",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Graiicaliis caesius preussi",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Bleda poliocephala",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Bleda",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Bleda tephrolifima",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Bleda",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Turdinus monachus",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Turdinus",
+    "rank": "GENUS",
+    "confidence": 92,
+    "status": "DOUBTFUL"
+  },
+  {
+    "query": "Turdus nigrilorum",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Turdus",
+    "rank": "GENUS",
+    "confidence": 92,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Turdus crossleyi",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Turdus",
+    "rank": "GENUS",
+    "confidence": 92,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Oossypha isabellae",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Saxicola salax pallidigula",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Saxicola",
+    "rank": "GENUS",
+    "confidence": 92,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Cisticola discolor",
+    "match_type": "EXACT",
+    "canonical_name": "Cisticola discolor",
+    "rank": "SPECIES",
+    "confidence": 98,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Zosterops stenocricota",
+    "match_type": "FUZZY",
+    "canonical_name": "Zosterops stenocricotus",
+    "rank": "SPECIES",
+    "confidence": 96,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Speirops melanocepbala",
+    "match_type": "FUZZY",
+    "canonical_name": "Speirops melanocephalus",
+    "rank": "SPECIES",
+    "confidence": 94,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Cinnyris oritis",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Cinnyris",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Cinuyris preussi",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Antbus camaroonensis",
+    "match_type": "FUZZY",
+    "canonical_name": "Anthus camaroonensis",
+    "rank": "SPECIES",
+    "confidence": 84,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Poliospiza burtoiii",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Poliospiza",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Pyromelana xantbomelas pboenicomera",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Pyromelana",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Sycobrotus tepbronotus",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Sycobrotus",
+    "rank": "GENUS",
+    "confidence": 93,
+    "status": "SYNONYM"
+  },
+  {
+    "query": "Heterbypbantes melanogaster",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Onycbognalbus preussi",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Ruff",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Eroliinse",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Triuginse",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Tringinae",
+    "match_type": "NONE",
+    "canonical_name": null,
+    "rank": null,
+    "confidence": 100,
+    "status": null
+  },
+  {
+    "query": "Canutus canutus",
+    "match_type": "HIGHERRANK",
+    "canonical_name": "Canutus",
+    "rank": "GENUS",
+    "confidence": 94,
+    "status": "ACCEPTED"
+  },
+  {
+    "query": "Rhea americana",
+    "match_type": "EXACT",
+    "canonical_name": "Rhea americana",
+    "rank": "SPECIES",
+    "confidence": 99,
+    "status": "ACCEPTED"
+  }
+]

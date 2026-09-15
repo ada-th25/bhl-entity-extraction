@@ -69,3 +69,16 @@ genuine findings:
    would benefit from stricter guidance distinguishing "a place actively
    being discussed" from "a place mentioned only in passing or as part of
    a citation."
+
+## GBIF reconciliation methodology
+
+Reconciliation ran on unique mention_text values only (not every
+occurrence across pages), since repeated mentions of the same taxon
+would waste API calls without adding information. GBIF's own matchType
+field (EXACT/FUZZY/HIGHERRANK/NONE) was used directly as the confidence
+signal rather than inventing a separate custom scoring scheme, since
+GBIF's fuzzy matching already accounts for common spelling variation,
+relevant given the OCR noise in this corpus. Unresolved matches were
+categorised by likely cause (abbreviated genus, bare epithet from
+ditto-mark lists, non-taxon misclassification, genuine OCR damage)
+rather than reported as a single undifferentiated failure count.

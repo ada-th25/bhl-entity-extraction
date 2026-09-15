@@ -18,7 +18,7 @@ structured, queryable data.
 - [x] LLM extraction pipeline with structured/validated output (`extract.py`)
 - [x] Hand-annotated gold-standard evaluation set (5 pages, `gold_standard/`)
 - [x] Evaluation + error analysis (`evaluate.py`, see Results below)
-- [ ] GBIF reconciliation
+- [x] GBIF reconciliation
 - [ ] Second annotation pass for inter-annotator agreement
 
 ## Problem
@@ -98,6 +98,58 @@ Full breakdown, including the categorised error taxonomy, is in
   understates real extraction performance when OCR noise causes
   legitimate spelling variation between annotator and model readings.
 
+## GBIF Reconciliation
+
+Reconciled all 203 unique extracted taxon mentions against the GBIF
+Taxonomy Backbone via GBIF's public Species Match API. Full results in
+[`results/reconciliation_report.md`](results/reconciliation_report.md).
+
+| Match type | Count | % |
+|------------|-------|---|
+| HIGHERRANK | 75    | 37% |
+| EXACT      | 52    | 26% |
+| NONE       | 50    | 25% |
+| FUZZY      | 26    | 13% |
+
+**Key findings:**
+- **GBIF's own fuzzy matching absorbs a meaningful share of OCR noise
+  without any custom normalisation logic** 26 mentions with OCR-damaged
+  spelling (e.g. "Sus andamensis" -> "Sus andamanensis", "Sylvia elaica"
+  -> "Sylvia elata") were still correctly resolved. This is a useful
+  architectural finding: a production pipeline may not need extensive
+  custom fuzzy-matching before reconciliation if the downstream authority
+  source already has reasonable noise tolerance built in.
+- **Unresolved (NONE) mentions fall into distinct, actionable categories**,
+  not one generic "failure" bucket:
+  - *Abbreviated genus references* ("C. skua", "M. manei") GBIF's
+    matcher cannot resolve a single-letter genus abbreviation regardless
+    of OCR quality. This is a structural limitation of matching
+    abbreviated forms directly, not an OCR problem. Expanding
+    abbreviated genus references to their full form (by tracking the
+    most recently mentioned full genus in the same passage) before
+    querying GBIF would likely resolve most of these.
+  - *Bare species epithets with no genus* ("nigrivestis", "affinis",
+    "minor"), traced back to the extraction stage: these come from
+    numbered species lists using ditto marks ("2. „ nigrivestis.") to
+    imply the same genus as the entry above, which the model extracted
+    as if the epithet were a complete, standalone name. This is an
+    extraction-stage limitation, not a reconciliation one. A concrete
+    target for future prompt refinement (e.g. explicitly instructing the
+    model to resolve ditto-mark list continuations against the prior
+    genus).
+  - *Non-taxa misclassified as taxon* ("Emeu", a common name; "Ruff",
+    "Tringinae" -- subfamily/general anatomical terminology from a
+    single dense ornithological-classification page) -- a small number
+    of genuine entity-type extraction errors, distinct from OCR or
+    reconciliation issues.
+  - *Genuinely unresolvable OCR damage* (e.g. "Teplnrodornis griseola"),
+    the expected residual noise floor even with authority-source fuzzy
+    matching.
+
+This reconciliation step, and the categorised breakdown of *why* matches
+failed rather than just how many failed, was more informative than a
+single match-rate number would have been on its own.
+
 ## Setup
 
 ```bash
@@ -114,8 +166,6 @@ needed.
 
 ## Pipeline
 
-## Pipeline
-
 ```
 src/search_bhl.py              -> search BHL for candidate volumes
 src/fetch_bhl.py                -> pull full OCR'd text for a given volume
@@ -125,6 +175,7 @@ src/schema.py                   -> entity schema + extraction prompt
 src/extract.py                  -> LLM extraction pipeline (Ollama, structured output)
 src/make_annotation_template.py -> generate blind annotation template for gold-standard labelling
 src/evaluate.py                 -> compare gold-standard vs. extracted entities, error taxonomy
+src/reconcile.py                -> Reconcile extracted taxon mentions against the GBIF Taxonomy Backbone
 ```
 
 ## Limitations (so far)
