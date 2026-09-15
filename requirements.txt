@@ -1,5 +1,3 @@
 requests
-pandas
 jsonschema
 python-dotenv
-openai
