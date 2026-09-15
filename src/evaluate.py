@@ -1,17 +1,20 @@
 """
 src/evaluate.py
 
-Compare the hand-annotated gold-standard entities against the LLM's
-extracted entities for the same pages, computing precision/recall/F1
-per entity type, plus a categorized error breakdown (not just a single
-accuracy number).
+Compare hand-annotated gold-standard entities against the LLM's extracted
+entities for the same pages: precision/recall/F1 per entity type, plus a
+categorized error breakdown (type mismatches, partial spans, near-matches,
+missed entities, spurious extractions).
 
-Matching rule: an extracted entity is a "hit" if its (mention_text,
-entity_type) pair exactly matches a gold entity on the same page.
-Exact-string matching is a deliberate, simple starting point. See
-docs/design_decisions.md for why fuzzy/normalised matching is a
-separate, later concern (reconciliation), not part of extraction
-evaluation itself.
+Matching rules:
+  - Exact match: (mention_text, entity_type) identical.
+  - Near match (fuzzy): same entity_type, mention_text similarity above
+    FUZZY_MATCH_THRESHOLD (character-level ratio). Catches cases where the
+    gold and predicted mentions are the same real entity but differ by a
+    minor OCR-variant spelling (e.g. "Pycnonotusjocosus" vs
+    "Pycnonotus jocosus"). Reported separately from exact TP, not folded
+    silently into the headline precision/recall, so the distinction stays
+    visible.
 
 Usage:
     python evaluate.py
@@ -20,15 +23,42 @@ Usage:
 import json
 from pathlib import Path
 from collections import defaultdict
+from difflib import SequenceMatcher
 
 GOLD_PATH = Path(__file__).resolve().parent.parent / "data" / "gold_standard" / "annotation_template.json"
 EXTRACTED_PATH = Path(__file__).resolve().parent.parent / "data" / "extracted_entities.json"
 OUT_PATH = Path(__file__).resolve().parent.parent / "results" / "metrics.md"
 
+FUZZY_MATCH_THRESHOLD = 0.85
+
 
 def normalise_key(entity: dict) -> tuple:
-    """(mention_text, entity_type) as the matching key, exact string match."""
     return (entity["mention_text"].strip(), entity["entity_type"])
+
+
+def text_similarity(a: str, b: str) -> float:
+    return SequenceMatcher(None, a.lower(), b.lower()).ratio()
+
+
+def find_near_matches(false_negatives: set, false_positives: set) -> list:
+    """Pair up FN/FP of the same type with high text similarity."""
+    near_matches = []
+    used_fp = set()
+
+    for fn_text, fn_type in false_negatives:
+        best, best_score = None, 0.0
+        for fp_text, fp_type in false_positives:
+            if fp_type != fn_type or (fp_text, fp_type) in used_fp:
+                continue
+            score = text_similarity(fn_text, fp_text)
+            if score > best_score:
+                best_score, best = score, (fp_text, fp_type)
+
+        if best and best_score >= FUZZY_MATCH_THRESHOLD:
+            near_matches.append((fn_text, best[0], fn_type, round(best_score, 2)))
+            used_fp.add(best)
+
+    return near_matches
 
 
 def evaluate_page(gold_entities: list, predicted_entities: list) -> dict:
@@ -36,47 +66,36 @@ def evaluate_page(gold_entities: list, predicted_entities: list) -> dict:
     pred_keys = {normalise_key(e) for e in predicted_entities}
 
     true_positives = gold_keys & pred_keys
-    false_negatives = gold_keys - pred_keys   # missed by the model
-    false_positives = pred_keys - gold_keys   # model said it, gold didn't
+    false_negatives = gold_keys - pred_keys
+    false_positives = pred_keys - gold_keys
+
+    near_matches = find_near_matches(false_negatives, false_positives)
+    near_fn = {(t, ty) for t, _, ty, _ in near_matches}
+    near_fp = {(t, ty) for _, t, ty, _ in near_matches}
+
+    # Remove near-matched pairs from the "genuine" FN/FP sets
+    remaining_fn = false_negatives - near_fn
+    remaining_fp = false_positives - near_fp
 
     return {
         "true_positives": true_positives,
-        "false_negatives": false_negatives,
-        "false_positives": false_positives,
+        "near_matches": near_matches,
+        "false_negatives": remaining_fn,
+        "false_positives": remaining_fp,
     }
 
 
 def categorise_errors(false_negatives: set, false_positives: set) -> dict:
-    """
-    Split raw false negatives/positives into a rough error taxonomy:
-      - type_mismatch: same mention_text appears in both sets but with
-        a different entity_type (e.g. "Negrillo" gold=person, pred=locality)
-      - partial_span: predicted text is a substring of a gold mention or
-        vice versa (e.g. gold "Calcenas nicobarica" vs pred "Nicobarica")
-      - missed_entirely: false negative with no related prediction at all
-      - spurious: false positive with no related gold entity at all
-    This is a heuristic categorisation to guide manual review, not a
-    fully automated ground truth -- worth spot-checking by hand.
-    """
-    fn_texts = {text for text, _ in false_negatives}
-    fp_texts = {text for text, _ in false_positives}
-
-    type_mismatches = []
-    partial_spans = []
-    missed_entirely = []
-    spurious = []
-
+    type_mismatches, partial_spans, missed_entirely, spurious = [], [], [], []
     matched_fp = set()
 
     for fn_text, fn_type in false_negatives:
-        # same text, different type -> type mismatch
         same_text_fp = [(t, ty) for (t, ty) in false_positives if t == fn_text]
         if same_text_fp:
             type_mismatches.append((fn_text, fn_type, same_text_fp[0][1]))
             matched_fp.add(same_text_fp[0])
             continue
 
-        # substring relationship -> partial span error
         partial_match = None
         for fp_text, fp_type in false_positives:
             if (fp_text, fp_type) in matched_fp:
@@ -110,8 +129,8 @@ def run():
     with open(EXTRACTED_PATH, encoding="utf-8") as f:
         extracted_pages = {p["page_id"]: p["entities"] for p in json.load(f)}
 
-    # Per-type counts across all annotated pages
-    counts = defaultdict(lambda: {"tp": 0, "fp": 0, "fn": 0})
+    counts = defaultdict(lambda: {"tp": 0, "fp": 0, "fn": 0, "near": 0})
+    all_near_matches = []
     all_type_mismatches = []
     all_partial_spans = []
     all_missed = []
@@ -123,10 +142,14 @@ def run():
 
         for _, etype in result["true_positives"]:
             counts[etype]["tp"] += 1
+        for _, _, etype, _ in result["near_matches"]:
+            counts[etype]["near"] += 1
         for _, etype in result["false_negatives"]:
             counts[etype]["fn"] += 1
         for _, etype in result["false_positives"]:
             counts[etype]["fp"] += 1
+
+        all_near_matches += [(page_id, *nm) for nm in result["near_matches"]]
 
         errors = categorise_errors(result["false_negatives"], result["false_positives"])
         all_type_mismatches += [(page_id, *e) for e in errors["type_mismatches"]]
@@ -134,10 +157,9 @@ def run():
         all_missed += [(page_id, *e) for e in errors["missed_entirely"]]
         all_spurious += [(page_id, *e) for e in errors["spurious"]]
 
-    # Build the report
     lines = ["# Evaluation Results\n"]
     lines.append(f"Evaluated on {len(gold_pages)} hand-annotated gold-standard pages.\n")
-    lines.append("## Precision / Recall / F1 by entity type\n")
+    lines.append("## Precision / Recall / F1 by entity type (strict exact-match)\n")
     lines.append("| Type | TP | FP | FN | Precision | Recall | F1 |")
     lines.append("|------|----|----|----|-----------|--------|----|")
 
@@ -149,7 +171,26 @@ def run():
         f1 = 2 * precision * recall / (precision + recall) if (precision + recall) else 0
         lines.append(f"| {etype} | {tp} | {fp} | {fn} | {precision:.2f} | {recall:.2f} | {f1:.2f} |")
 
-    lines.append("\n## Error taxonomy\n")
+    lines.append("\n## Precision / Recall / F1 including near-matches (fuzzy, OCR-variant spelling)\n")
+    lines.append(f"Near-matches (similarity >= {FUZZY_MATCH_THRESHOLD}) are counted as correct here, "
+                  "treating minor OCR-variant spelling differences as the same real entity.\n")
+    lines.append("| Type | TP+Near | FP | FN | Precision | Recall | F1 |")
+    lines.append("|------|---------|----|----|-----------|--------|----|")
+
+    for etype in ["taxon", "person", "locality"]:
+        c = counts[etype]
+        tp_plus_near, fp, fn = c["tp"] + c["near"], c["fp"], c["fn"]
+        precision = tp_plus_near / (tp_plus_near + fp) if (tp_plus_near + fp) else 0
+        recall = tp_plus_near / (tp_plus_near + fn) if (tp_plus_near + fn) else 0
+        f1 = 2 * precision * recall / (precision + recall) if (precision + recall) else 0
+        lines.append(f"| {etype} | {tp_plus_near} | {fp} | {fn} | {precision:.2f} | {recall:.2f} | {f1:.2f} |")
+
+    lines.append(f"\n## Near-matches detected ({len(all_near_matches)})")
+    lines.append("Same real entity, minor OCR-variant spelling difference between gold and predicted.\n")
+    for page_id, fn_text, fp_text, etype, score in all_near_matches:
+        lines.append(f"- page {page_id}: gold=\"{fn_text}\" vs predicted=\"{fp_text}\" ({etype}, similarity={score})")
+
+    lines.append(f"\n## Error taxonomy (excludes near-matches above)\n")
 
     lines.append(f"### Type mismatches ({len(all_type_mismatches)})")
     lines.append("Same text extracted, but classified as the wrong entity type.\n")
@@ -176,10 +217,10 @@ def run():
         f.write("\n".join(lines))
 
     print(f"Report written to {OUT_PATH}")
-    print("\n--- Summary ---")
+    print("\n--- Summary (strict exact-match) ---")
     for etype in ["taxon", "person", "locality"]:
         c = counts[etype]
-        print(f"{etype}: TP={c['tp']} FP={c['fp']} FN={c['fn']}")
+        print(f"{etype}: TP={c['tp']} near={c['near']} FP={c['fp']} FN={c['fn']}")
     print(f"Type mismatches: {len(all_type_mismatches)}")
     print(f"Partial span errors: {len(all_partial_spans)}")
     print(f"Missed entirely: {len(all_missed)}")

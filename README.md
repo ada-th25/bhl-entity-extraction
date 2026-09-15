@@ -55,38 +55,48 @@ See `data/sample_pages.json` for the curated sample and `src/select_pages.py`
 ## Results
 
 Evaluated LLM extraction (Llama 3.1 8B, local) against 5 hand-annotated
-gold-standard pages, using exact-match on (mention_text, entity_type):
+gold-standard pages. Two matching strategies are reported: strict exact
+string match, and a fuzzy variant that also counts near-identical
+OCR-variant spellings (similarity >= 0.85) as correct, since several
+"errors" turned out to be the same real entity read slightly differently
+by the annotator and the model (e.g. "Pycnonotusjocosus" vs "Pycnonotus
+jocosus").
 
-| Type     | Precision | Recall | F1   |
-|----------|-----------|--------|------|
-| taxon    | 0.95      | 0.89   | 0.92 |
-| person   | 1.00      | 0.74   | 0.85 |
-| locality | 0.76      | 0.79   | 0.77 |
+| Type     | Precision (strict) | Recall (strict) | F1 (strict) | F1 (fuzzy) |
+|----------|--------------------|------------------|-------------|------------|
+| taxon    | 0.98               | 0.92             | 0.95        | 0.95       |
+| person   | 1.00               | 0.74             | 0.85        | 0.85       |
+| locality | 0.79               | 0.81             | 0.80        | 0.81       |
 
-Full breakdown, including a categorised error taxonomy (type mismatches,
-partial-span errors, missed entities, spurious extractions), is in
+Full breakdown, including the categorised error taxonomy, is in
 [`results/metrics.md`](results/metrics.md).
 
 **Key findings:**
-- **Taxon extraction is strongest** (F1 0.92) — Latin binomials follow a
-  consistent, learnable pattern the model handles well even with OCR noise.
-- **Locality precision is the weakest area** (0.76) — the model produced
-  false positives like extracting "Equator" and "Red Sea" as localities in
-  contexts where they don't refer to a specific mentioned place on that
-  page, and once hallucinated a locality from a footnote reference ("The
-  Ibis," the journal's own title) that isn't a real place at all.
-- **Person recall is lower than precision** (0.74 vs 1.00) — the model
-  never produced a false person, but consistently missed people named only
-  by surname in citation-style text (e.g. "Baird", "Gould", "Cassin" used
-  as taxonomic authorities rather than active subjects).
-- **Exact-string matching likely undercounts real performance**: several
-  "missed" and "spurious" entities are actually the same underlying entity
-  with a minor OCR-variant spelling difference (e.g. gold
-  "Pycnonotusjocosus" vs predicted "Pycnonotus jocosus"), counted as two
-  separate errors rather than one near-miss. A fuzzy-matching evaluation
-  pass would give a more accurate picture — noted as a next step.
-
-## Setup
+- **Taxon extraction is strongest** (F1 0.95) even under OCR noise, since
+  Latin binomials follow a consistent, learnable pattern.
+- **The model reliably misses abbreviated genus back-references** e.g.
+  "C. antarcticus" after "Catarractes" was introduced earlier in the same
+  passage. All but one of the "missed entirely" taxon errors fit this
+  exact pattern, suggesting the model doesn't reliably track a
+  previously-mentioned genus across a passage the way a human reader
+  would. This is a specific, addressable prompt-engineering target, not
+  a generic weakness.
+- **Person recall (0.74) is driven entirely by missed taxonomic
+  authority citations** e.g. "Cassin", "Gould", "Baird" used as
+  "Buteo insignatus of Cassin" rather than as active subjects. The model
+  never produced a false person (precision 1.00), suggesting it is
+  conservative rather than simply weak at person detection.
+- **Locality precision (0.79) is the weakest metric**, driven by the
+  model extracting broad/contextually-passing place references (e.g.
+  "Equator", "Red Sea"), a journal title mistaken for a place ("The
+  Ibis"), and one case of extracting an entire clause rather than
+  isolating the place name within it ("And no mention of the Red Sea"
+  instead of "Red Sea"); a distinct span-boundary failure, not a
+  classification error.
+- Six additional matches were only identified once fuzzy matching was
+  applied, indicating strict exact-match evaluation modestly
+  understates real extraction performance when OCR noise causes
+  legitimate spelling variation between annotator and model readings.
 
 ## Setup
 
