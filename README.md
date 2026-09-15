@@ -11,7 +11,7 @@ structured, queryable data.
 
 ## Status
 
-🚧 In progress. Core pipeline complete for a small (19-page) sample:
+Core pipeline complete for a small (19-page) sample:
 - [x] BHL search + fetch pipeline (`search_bhl.py`, `fetch_bhl.py`)
 - [x] Curated a 19-page working sample across 4 volumes (1859–1915)
 - [x] Entity schema definition (`schema.py`)
@@ -19,7 +19,6 @@ structured, queryable data.
 - [x] Hand-annotated gold-standard evaluation set (5 pages, `gold_standard/`)
 - [x] Evaluation + error analysis (`evaluate.py`, see Results below)
 - [x] GBIF reconciliation
-- [ ] Second annotation pass for inter-annotator agreement
 
 ## Problem
 
